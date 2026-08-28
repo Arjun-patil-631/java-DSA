@@ -25,10 +25,10 @@ The multiples of k = 5 are 5, 10, 15, 20... and the smallest multiple missing fr
 1 <= nums[i] <= 100
 1 <= k <= 100
 */
-
+import java.util.*;
 class Solution {
     public int missingMultiple(int[] nums, int k) {
-        Set<Integer> set= new HashSet<>();
+        HashSet<Integer> set= new HashSet<>();
         for(int num: nums){
             set.add(num);
         }
